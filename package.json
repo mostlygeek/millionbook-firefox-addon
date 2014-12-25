@@ -2,8 +2,8 @@
   "name": "millionbook-font-size",
   "title": "millionbook-font-size",
   "id": "jid1-OSbgFkKCB5twPA",
-  "description": "a basic add-on",
-  "author": "",
+  "description": "adds a font size changer on millionbook.com",
+  "author": "Benson Wong <mostlygeek@gmail.com>",
   "license": "MPL 2.0",
   "version": "0.1"
 }
