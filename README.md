@@ -1,6 +1,6 @@
 # About
 
-I built this as a last minute 🎄 Christmas 🎄 present for my mom. She often reads Chinese stories on Firefox on her tablet. Unfortunately, even the maximum text zoom is too small for her and strains on her eyes. [1]
+I built this as a last minute 🎄 Christmas 🎄 present for my mom. She often reads Chinese stories on Firefox on her tablet. Unfortunately, even the maximum text zoom is too small for her and strains her eyes. [1]
 
 "That's bullshit!", I exclaimed! I can FTFY with Greasemonkey! Oops. Turns out Greasemonkey isn't supported on Firefox for Android. #sadness.
 
