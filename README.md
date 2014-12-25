@@ -9,7 +9,7 @@ After much grumbling and searching it turned out a custom add-on would do the tr
 ## How I built it
 
 * Started at [Firefox's Add-On SDK docs](https://developer.mozilla.org/en-US/Add-ons/SDK) and installed the `cfx` command line utility
-* Using the [page-mod SDK](https://developer.mozilla.org/en-US/Add-ons/SDK/High-Level_APIs/page-mod), I run a custom script, `resizer.js` on the [millionbook.com](http://millionbook.com) website
+* Using the [page-mod SDK](https://developer.mozilla.org/en-US/Add-ons/SDK/High-Level_APIs/page-mod), I run a custom script, [resizer.js](https://github.com/mostlygeek/millionbook-firefox-addon/blob/master/data/resizer.js) on the [millionbook.com](http://millionbook.com) website
 * `resizer.js` adds a floating button, that when clicked will change an inline css style to resize the font. It will also remember the last zoom level across pages.
 * Here's how it looks: (*I don't read Chinese so if text is NSFW, oops!*)![screenshot](https://raw.githubusercontent.com/mostlygeek/millionbook-firefox-addon/master/screenshots/1.png?a)
 * Built into an XPI file for Android: `$ cfx xpi --force-mobile`
