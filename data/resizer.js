@@ -7,8 +7,8 @@ self.port.on("init", function() {
     document.body.insertAdjacentHTML('afterbegin', [
       '<style>'
       , '#changeSize {'
-      , '  position: fixed; right: 0px; top: 75px;'
-      , '  width: 25px; height: 25px;'
+      , '  position: fixed; left: 25px; top: 75px;'
+      , '  width: 50px; height: 50px;'
       , '  font-size: 1em;'
       , '  background-color: rgba(6, 115, 35, 0.25);'
       , '  border: 1px solid black'
