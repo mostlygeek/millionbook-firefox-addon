@@ -16,6 +16,12 @@ After much grumbling and searching it turned out a custom add-on would do the tr
 * Put it into my Dropbox and bit.ly linked it: [http://bit.ly/_millionbook](http://bit.ly/_millionbook) so I can open it on the tablet
 * \o/
 
+## How to work on it 
+
+* See [Developing extension for Firefox for Android](https://extensionworkshop.com/documentation/develop/developing-extensions-for-firefox-for-android/)
+* Need to have an Android emulator installed 
+* Create a Tablet sized virtual machine, enable Android Developer Mode
+* using ` web-ext run -t firefox-android --android-device=emulator-XXXX` will run Fenix and install the addon for testing
 
 ----
 
