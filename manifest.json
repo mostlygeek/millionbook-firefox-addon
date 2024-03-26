@@ -1,7 +1,7 @@
 {
     "manifest_version": 2,
     "name": "millionbook-font-size",
-    "version": "1.0",
+    "version": "1.0.1",
     "description": "Adds a font size changer on millionbook.com so my mom can read her stories easier.",
     "browser_specific_settings": {
         "gecko": {
@@ -15,7 +15,7 @@
     },
     "content_scripts": [
         {
-            "matches": ["*://*.millionbook.com/*"],
+            "matches": ["*://www.millionbook.com/*"],
             "js": ["resize.js"]
         }
     ],

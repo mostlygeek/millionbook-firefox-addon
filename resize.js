@@ -20,7 +20,7 @@ function init() {
 
     const STORAGE_KEY = 'fontSizeIndex';
 
-    var sizes = ["1rem", "2rem", "3rem", "4rem", "5rem"];
+    var sizes = ["1rem", "2rem", "3rem", "4rem"];
     var sizeIndex = 0;
     var plusButton = document.getElementById('changeSize');
 

@@ -21,8 +21,14 @@ After much grumbling and searching it turned out a custom add-on would do the tr
 * See [Developing extension for Firefox for Android](https://extensionworkshop.com/documentation/develop/developing-extensions-for-firefox-for-android/)
 * Need to have an Android emulator installed 
 * Create a Tablet sized virtual machine, enable Android Developer Mode
-* using ` web-ext run -t firefox-android --android-device=emulator-XXXX` will run Fenix and install the addon for testing
-
+* Testing it
+  * in android emulator:  
+    * use Android Studio GUI to create a new tablet emulator    
+    * use `~/Library/Android/sdk/emulator`: `./emulator -list-avds`, `./emulator -avd XXXX` to start one
+    * use `adb devices` to find id of running emulators
+    * `web-ext run -t firefox-android --android-device=emulator-XXXX` to run in Firefox in emulator. Firefox Beta must be installed.  Android Developer mode + USB debugging must be enabled. Remote debugging via USB must be enabled in Firefox. 
+  * on Desktop: `web-ext run` - to test locally 
+* Building it: `web-ext build`
 ----
 
 [1] [official fix in the works - bug 1074381](https://bugzilla.mozilla.org/show_bug.cgi?id=1074381)
