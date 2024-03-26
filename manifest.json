@@ -1,0 +1,12 @@
+{
+    "manifest_version": 2,
+    "name": "millionbook-font-size",
+    "version": "1.0",
+    "description": "Adds a font size changer on millionbook.com so my mom can read her stories easier.",
+    "content_scripts": [
+        {
+            "matches": ["*://*.millionbook.com/*"],
+            "js": ["resize.js"]
+        }
+    ]
+}
