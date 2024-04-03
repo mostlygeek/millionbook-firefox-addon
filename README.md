@@ -29,6 +29,7 @@ After much grumbling and searching it turned out a custom add-on would do the tr
     * `web-ext run -t firefox-android --android-device=emulator-XXXX` to run in Firefox in emulator. Firefox Beta must be installed.  Android Developer mode + USB debugging must be enabled. Remote debugging via USB must be enabled in Firefox. 
   * on Desktop: `web-ext run` - to test locally 
 * Building it: `web-ext build`
+* try opening this URL: https://millionbook.net/gd/y/yiming/qlxjn/001.htm
 ----
 
 [1] [official fix in the works - bug 1074381](https://bugzilla.mozilla.org/show_bug.cgi?id=1074381)

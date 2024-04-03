@@ -11,7 +11,8 @@ function init() {
         , '  width: 50px; height: 50px;'
         , '  font-size: 1em;'
         , '  background-color: rgba(6, 115, 35, 0.25);'
-        , '  border: 1px solid black'
+        , '  border: 1px solid black;'
+        , '  z-index: 9999;'
         , '}'
     ].join("\n");
     document.body.appendChild(style);
@@ -20,7 +21,7 @@ function init() {
 
     const STORAGE_KEY = 'fontSizeIndex';
 
-    var sizes = ["1rem", "2rem", "3rem", "4rem"];
+    var sizes = ["1rem", "2rem", "3rem", "4rem", "5rem"];
     var sizeIndex = 0;
     var plusButton = document.getElementById('changeSize');
 
